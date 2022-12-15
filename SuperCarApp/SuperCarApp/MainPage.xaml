@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuperCarApp.MainPage">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <StackLayout>
+            <Frame HeightRequest="280"  
+               
+                           BackgroundColor="White" Padding="0"
+                           HasShadow="True" 
+                           HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <StackLayout  BackgroundColor="Black">
+                        <Image Source="supercar1.jpg" 
+                                    HeightRequest="350"
+                                    Aspect="AspectFill"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,0,0,10">
+
+
+                        <Label Text="Supercar" TextColor="White" FontSize="28"
+                           FontAttributes="None" Margin="15,0"
+                           VerticalOptions="EndAndExpand"/>
+
+                        <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
+
+                            <Label Text="Dreams" TextColor="White" FontSize="24"
+                           FontAttributes="None" 
+                           VerticalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+
+
+            </Frame>
+
+
+
+
+            <Frame HeightRequest="320" BorderColor="Orange" BackgroundColor="white" WidthRequest="180" Margin="30,0,30,0" CornerRadius="9" HasShadow="True">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition  Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="supercar1.jpg" Grid.Row="0" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="supercar2.jpg" Grid.Row="0" Grid.Column="1"/>
+                    <Image Source="supercar3.jpg" Grid.Row="1" Grid.Column="0"/>
+                    <Image Source="supercar4.jpg" Grid.Row="1" Grid.Column="1"/>
+                    <Image Source="supercar5.jpg" Grid.Row="2" Grid.Column="0"/>
+                    <Image Source="supercar6.jpg" Grid.Row="2" Grid.Column="1"/>
+
+
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="30" BorderColor="Orange" BackgroundColor="white" WidthRequest="180" Margin="30,0,30,0" CornerRadius="9" >
+                <Grid>
+
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition  Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition  Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="homeicon.png" Grid.Row="0" Grid.Column="0"  >
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped="GoHome_Clicked"
+                                    NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+
+                    </Image>
+                    <Image Source="contacticon.png" Grid.Row="0" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped="GoProfile_Clicked"
+                                    NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+
+
+                    </Image>
+                    <Image Source="uploadicon.png" Grid.Row="0" Grid.Column="2"/>
+                    <Image Source="profileicon.png" Grid.Row="0" Grid.Column="3" />
+                </Grid>
+
+            </Frame>
+
+
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
