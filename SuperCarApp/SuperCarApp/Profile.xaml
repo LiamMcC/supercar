@@ -50,6 +50,8 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="20" />
                             <RowDefinition Height="20" />
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="50" />
                             <RowDefinition Height="*" />
 
                         </Grid.RowDefinitions>
@@ -60,13 +62,10 @@
                         </Grid.ColumnDefinitions>
                         <Label Text="My Profile" Grid.Row="0" Grid.Column="0"/>
                         <Label Text="About Me" Grid.Row="1" Grid.Column="0"></Label>
-                        <ListView ItemsSource="{Binding specs}" Grid.Row="2" Grid.Column="0">
-
-
-
-
-
-                        </ListView>
+                        <Button Text="Pick Image" Clicked="Button_Upload" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="Take Image" Clicked="Button1_Take" Grid.Row="3" Grid.Column="0"/>
+                        <Image x:Name="resultImage" Grid.Row="4" Grid.Column="0"/>
+                        
 
 
 
