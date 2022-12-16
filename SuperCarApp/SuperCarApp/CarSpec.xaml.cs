@@ -14,7 +14,7 @@ namespace SuperCarApp
     public partial class CarSpec : ContentPage
     {
 
-        ObservableCollection<string> specs = new ObservableCollection<string> { "Something Here", "Something There"};
+        ObservableCollection<string> specs = new ObservableCollection<string> { "RPM point maximum power 6500RPM", "Acceleration 0 - 60 mph 4.0 secs", "Top speed 293KMH", "Acceleration 0 - 160 km/h 9.3 secs" };
         CarStuff garage = new CarStuff();
         public CarSpec()
         {
@@ -28,15 +28,26 @@ namespace SuperCarApp
             garage.specs.Add(nameEntry.Text);
         }
 
+
+
         private async void GoHome_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
         }
 
+        private async void GoSpecs_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CarSpec());
+        }
 
         private async void GoProfile_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new CarSpec());
+            await Navigation.PushAsync(new Profile());
+        }
+
+        private async void GoMap_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new mappage());
         }
     }
 

@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.Maps": "4.7.0.1260"
         },
         "runtime": {
           "SuperCarApp.dll": {}
@@ -57,6 +58,17 @@
             "fileVersion": "5.0.0.786"
           }
         }
+      },
+      "Xamarin.Forms.Maps/4.7.0.1260": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.7.0.486"
+          }
+        }
       }
     }
   },
@@ -100,6 +112,13 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.7.0.1260": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHXQySy24kI9fDJlsTWh266EqIrR82R4PLTLWKJvVS+syMCQaBH140+0NM5rrZmgXdnd4G20X5OGuK/QOCcHoA==",
+      "path": "xamarin.forms.maps/4.7.0.1260",
+      "hashPath": "xamarin.forms.maps.4.7.0.1260.nupkg.sha512"
     }
   }
 }

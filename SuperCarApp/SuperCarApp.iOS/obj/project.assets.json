@@ -171,12 +171,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1260": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1260"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "SuperCarApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.Maps": "4.7.0.1260"
         },
         "compile": {
           "bin/placeholder/SuperCarApp.dll": {}
@@ -356,12 +375,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1260": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1260"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "SuperCarApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.Maps": "4.7.0.1260"
         },
         "compile": {
           "bin/placeholder/SuperCarApp.dll": {}
@@ -541,12 +579,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1260": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1260"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "SuperCarApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.Maps": "4.7.0.1260"
         },
         "compile": {
           "bin/placeholder/SuperCarApp.dll": {}
@@ -726,12 +783,31 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1260": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1260"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "SuperCarApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.Forms.Maps": "4.7.0.1260"
         },
         "compile": {
           "bin/placeholder/SuperCarApp.dll": {}
@@ -1048,6 +1124,43 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.7.0.1260": {
+      "sha512": "rHXQySy24kI9fDJlsTWh266EqIrR82R4PLTLWKJvVS+syMCQaBH140+0NM5rrZmgXdnd4G20X5OGuK/QOCcHoA==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.7.0.1260",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.7.0.1260.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "SuperCarApp/1.0.0": {
       "type": "project",
       "path": "../SuperCarApp/SuperCarApp.csproj",
@@ -1058,7 +1171,8 @@
     "Xamarin.iOS,Version=v1.0": [
       "SuperCarApp >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.Forms.Maps >= 4.7.0.1260"
     ]
   },
   "packageFolders": {
@@ -1110,6 +1224,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2196, )"
+          },
+          "Xamarin.Forms.Maps": {
+            "target": "Package",
+            "version": "[4.7.0.1260, )"
           }
         }
       }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JccZ5Q8Vem+q4+LQRAdNN0LpJSqdPxIyBNiJZ+Vco36D7iW7TZ+JtP00HFsJHoEW1SAGzYTKzsY5yuwyu5lJzw==",
+  "dgSpecHash": "KO0zfprDFyw9ZMihcFWLLa8Yai/AprdrvG2TW3LZikFVve1xjwf5dZg8jrm513pdPB5pwpC6fT3Yd6jBZO5BDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\SuperCarApp\\SuperCarApp\\SuperCarApp\\SuperCarApp.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\xamarin.forms.maps\\4.7.0.1260\\xamarin.forms.maps.4.7.0.1260.nupkg.sha512"
   ],
   "logs": []
 }

@@ -14,3 +14,5 @@ C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debu
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debug\netstandard2.0\SuperCarApp.pdb
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debug\netstandard2.0\ref\SuperCarApp.dll
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debug\netstandard2.0\CarSpec.xaml.g.cs
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp\obj\Debug\netstandard2.0\mappage.xaml.g.cs

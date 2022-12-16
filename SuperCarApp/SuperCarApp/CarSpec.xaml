@@ -58,8 +58,8 @@
                                 <ColumnDefinition Width="*" />
                                 
                             </Grid.ColumnDefinitions>
-                        <Entry x:Name="nameEntry" Placeholder="Enter name" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Add Something" Clicked="Canr_Clicked" Grid.Row="1" Grid.Column="0" HeightRequest="5"></Button>
+                        <Entry x:Name="nameEntry" Placeholder="Something Missing?" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Add Spec" Clicked="Canr_Clicked" Grid.Row="1" Grid.Column="0" HeightRequest="5"></Button>
                         <ListView ItemsSource="{Binding specs}" Grid.Row="2" Grid.Column="0">
 
 
@@ -91,27 +91,43 @@
                             </Grid.ColumnDefinitions>
 
 
-                            <Image Source="homeicon.png" Grid.Row="0" Grid.Column="0"  >
-
-                                <Image.GestureRecognizers>
-                                    <TapGestureRecognizer
+                        <Image Source="homeicon.png" Grid.Row="0" Grid.Column="0">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
                                     Tapped="GoHome_Clicked"
                                     NumberOfTapsRequired="1" />
-                                </Image.GestureRecognizers>
+                            </Image.GestureRecognizers>
 
-                            </Image>
-                            <Image Source="contacticon.png" Grid.Row="0" Grid.Column="1">
-                                <Image.GestureRecognizers>
-                                    <TapGestureRecognizer
+                        </Image>
+                        <Image Source="specicon.png" Grid.Row="0" Grid.Column="1">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="GoSpecs_Clicked"
+                                    NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+
+
+                        </Image>
+                        <Image Source="mapicon.png" Grid.Row="0" Grid.Column="2">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="GoMap_Clicked"
+                                    NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+
+
+                        </Image>
+
+                        <Image Source="profileicon.png" Grid.Row="0" Grid.Column="3" >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
                                     Tapped="GoProfile_Clicked"
                                     NumberOfTapsRequired="1" />
-                                </Image.GestureRecognizers>
+                            </Image.GestureRecognizers>
 
 
-                            </Image>
-                            <Image Source="uploadicon.png" Grid.Row="0" Grid.Column="2"/>
-                            <Image Source="profileicon.png" Grid.Row="0" Grid.Column="3" />
-                        </Grid>
+                        </Image>
+                    </Grid>
 
                     </Frame>
 

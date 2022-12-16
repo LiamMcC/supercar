@@ -25,13 +25,20 @@ namespace SuperCarApp
             await Navigation.PushAsync(new MainPage());
         }
 
-
-        private async void GoProfile_Clicked(object sender, EventArgs e)
+        private async void GoSpecs_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CarSpec());
         }
 
+        private async void GoProfile_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Profile());
+        }
 
+        private async void GoMap_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new mappage());
+        }
 
     }
 }
