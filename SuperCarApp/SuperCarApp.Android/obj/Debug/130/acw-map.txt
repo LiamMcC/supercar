@@ -1,6 +1,12 @@
+SuperCarApp.Droid.Activity1, SuperCarApp.Android;crc64b9ddadf644627836.Activity1
+SuperCarApp.Droid.Activity1;crc64b9ddadf644627836.Activity1
+supercarapp.droid.Activity1;crc64b9ddadf644627836.Activity1
 SuperCarApp.Droid.MainActivity, SuperCarApp.Android;crc64b9ddadf644627836.MainActivity
 SuperCarApp.Droid.MainActivity;crc64b9ddadf644627836.MainActivity
 supercarapp.droid.MainActivity;crc64b9ddadf644627836.MainActivity
+SuperCarApp.Droid.SplashActivity, SuperCarApp.Android;crc64b9ddadf644627836.SplashActivity
+SuperCarApp.Droid.SplashActivity;crc64b9ddadf644627836.SplashActivity
+supercarapp.droid.SplashActivity;crc64b9ddadf644627836.SplashActivity
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

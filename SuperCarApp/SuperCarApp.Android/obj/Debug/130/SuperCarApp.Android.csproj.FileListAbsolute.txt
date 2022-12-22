@@ -786,3 +786,7 @@ C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\stamp\_AndroidXJetifyManifest.stamp
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\androidx\_AndroidXJetifyManifest.jetify
 C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\stamp\_CopyIntermediateAssemblies.stamp
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\res\drawable\splash_screen.xml
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\android\src\crc64b9ddadf644627836\Activity1.java
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\android\src\crc64b9ddadf644627836\SplashActivity.java
+C:\Users\Administrator\source\repos\SuperCarApp\SuperCarApp\SuperCarApp.Android\obj\Debug\130\res\drawable\editicon.png

@@ -8,17 +8,54 @@ using Xamarin.Forms;
 
 namespace SuperCarApp
 {
+
+
     public partial class MainPage : ContentPage
     {
+
+
+        private readonly string SecureStorageKey1 = "MySecureStorageKey1";
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnSwiped(object sender, EventArgs e)
+        async private void OnSwiped(object sender, EventArgs e)
         {
-            DisplayAlert("Alert", "You have been alerted", "OK");
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Porsche");
         }
+
+        async private void OnSwiped1(object sender, EventArgs e)
+        {
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Corvette");
+        }
+
+        async private void OnSwiped2(object sender, EventArgs e)
+        {
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Zonda A");
+        }
+
+        async private void OnSwiped3(object sender, EventArgs e)
+        {
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Zonda B");
+        }
+
+        async private void OnSwiped4(object sender, EventArgs e)
+        {
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Zonda C");
+        }
+
+        async private void OnSwiped5(object sender, EventArgs e)
+        {
+            await DisplayAlert("Boom", "You have Added This To Your Profile Favourite Car", "OK");
+            await Xamarin.Essentials.SecureStorage.SetAsync(SecureStorageKey1, "Acura");
+        }
+
 
         private async void GoHome_Clicked(object sender, EventArgs e)
         {

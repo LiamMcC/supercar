@@ -14,10 +14,12 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-  <application android:label="SuperCarApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:label="SuperCarApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDc04mPUjetICpeiYvhPCIs4RlHvAuLBuw" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ic_launcher" android:label="SuperCarApp" android:theme="@style/MainTheme" android:name="crc64b9ddadf644627836.MainActivity" android:exported="true">
+    <activity android:label="Activity1" android:name="crc64b9ddadf644627836.Activity1" />
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ic_launcher" android:label="SuperCarApp" android:theme="@style/MainTheme" android:name="crc64b9ddadf644627836.MainActivity" />
+    <activity android:label="SplashActivity" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="crc64b9ddadf644627836.SplashActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -54,16 +54,36 @@
                         <ColumnDefinition  Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image Source="supercar1.jpg" Grid.Row="0" Grid.Column="0">
+                    <Image Source="supercar1.jpg" x:Name="myCar" Grid.Row="0" Grid.Column="0">
                         <Image.GestureRecognizers>
                         <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
                         </Image.GestureRecognizers>
                     </Image>
-                    <Image Source="supercar2.jpg" Grid.Row="0" Grid.Column="1"/>
-                    <Image Source="supercar3.jpg" Grid.Row="1" Grid.Column="0"/>
-                    <Image Source="supercar4.jpg" Grid.Row="1" Grid.Column="1"/>
-                    <Image Source="supercar5.jpg" Grid.Row="2" Grid.Column="0"/>
-                    <Image Source="supercar6.jpg" Grid.Row="2" Grid.Column="1"/>
+                    <Image Source="supercar2.jpg" Grid.Row="0" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="supercar3.jpg" Grid.Row="1" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped2"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="supercar4.jpg" Grid.Row="1" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped3"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="supercar5.jpg" Grid.Row="2" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped4"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="supercar6.jpg" Grid.Row="2" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped5"/>
+                        </Image.GestureRecognizers>
+                    </Image>
 
 
                 </Grid>

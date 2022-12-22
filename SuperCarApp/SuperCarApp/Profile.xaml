@@ -50,8 +50,10 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="20" />
                             <RowDefinition Height="20" />
-                            <RowDefinition Height="50" />
-                            <RowDefinition Height="50" />
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
                             <RowDefinition Height="*" />
 
                         </Grid.RowDefinitions>
@@ -60,11 +62,13 @@
                             <ColumnDefinition Width="*" />
 
                         </Grid.ColumnDefinitions>
-                        <Label Text="My Profile" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="About Me" Grid.Row="1" Grid.Column="0"></Label>
-                        <Button Text="Pick Image" Clicked="Button_Upload" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="Take Image" Clicked="Button1_Take" Grid.Row="3" Grid.Column="0"/>
-                        <Image x:Name="resultImage" Grid.Row="4" Grid.Column="0"/>
+                        <Label x:Name="person" Text="" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="About you" Grid.Row="1" Grid.Column="0"></Label>
+                        <Label x:Name="yourTown" Text="yourTown" Grid.Row="2" Grid.Column="0"></Label>
+                        <Label x:Name="yourCar" Text="yourCar" Grid.Row="3" Grid.Column="0"></Label>
+                        <Button Text="Pick Image" Clicked="Button_Upload" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="Take Image" Clicked="Button1_Take" Grid.Row="5" Grid.Column="0"/>
+                        <Image x:Name="resultImage" Grid.Row="6" Grid.Column="0"/>
                         
 
 
@@ -117,7 +121,7 @@
 
                         </Image>
 
-                        <Image Source="profileicon.png" Grid.Row="0" Grid.Column="3" >
+                        <Image Source="editicon.png" Grid.Row="0" Grid.Column="3" >
                             <Image.GestureRecognizers>
                                 <TapGestureRecognizer
                                     Tapped="GoProfile_Clicked"

@@ -11,11 +11,51 @@ namespace SuperCarApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Profile : ContentPage
+
+        
+
     {
+
+
+        private readonly string SecureStorageKey = "MySecureStorageKey";
+        private readonly string SecureStorageKey1 = "MySecureStorageKey1";
+        private readonly string SecureStorageKey2 = "MySecureStorageKey2";
+
         public Profile()
+
+
+
         {
+
+
             InitializeComponent();
         }
+
+
+
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            person.Text = await Xamarin.Essentials.SecureStorage.GetAsync(SecureStorageKey)
+                ?? "No value";
+
+            yourTown.Text = "Our Recrds Show You Live In : " + await Xamarin.Essentials.SecureStorage.GetAsync(SecureStorageKey2) 
+                ?? "No value";
+
+            yourCar.Text = "You have picked " + await Xamarin.Essentials.SecureStorage.GetAsync(SecureStorageKey1) + " as your favourite car!"
+                ?? "No value";
+        }
+
+
+
+
+
+
+
+       
+
 
         private async void GoHome_Clicked(object sender, EventArgs e)
         {
@@ -29,7 +69,7 @@ namespace SuperCarApp
 
         private async void GoProfile_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Profile());
+            await Navigation.PushAsync(new EditProfile());
         }
 
         private async void GoMap_Clicked(object sender, EventArgs e)
